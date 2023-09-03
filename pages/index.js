@@ -37,7 +37,7 @@ const Index = () => {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">
-          Youtube Thumbnail Downloader
+          YouTube Thumbnail Downloader
         </h1>
         <p className="text-gray-600">
           Download high-quality thumbnails from YouTube videos for FREE
@@ -60,7 +60,27 @@ const Index = () => {
       </div>
       {thumbnailOptions.length > 0 && (
         <div className="mt-8">
-          <h2 className="text-xl font-semibold mb-4">Thumbnail Options</h2>
+          <h2 className="text-xl font-semibold mb-4">
+            Thumbnail Options for Your YouTube Video
+          </h2>
+          <p>
+            Looking to enhance your YouTube video's appeal? Download
+            high-quality thumbnails from YouTube videos for free!
+          </p>
+          <h2 className="text-xl font-semibold mb-4">
+            How to Use the YouTube Thumbnail Downloader
+          </h2>
+          <p>
+            1. Enter the YouTube URL of the video for which you want to download
+            a thumbnail.
+          </p>
+          <p>
+            2. Click the "Download Thumbnail Images" button, and explore various
+            options.
+          </p>
+          <h2 className="text-xl font-semibold mb-4">
+            Thumbnail Options
+          </h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {thumbnailOptions.map((option, index) => (
               <div key={index} className="thumbnail-option">
