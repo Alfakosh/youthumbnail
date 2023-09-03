@@ -40,7 +40,7 @@ const Index = () => {
           Youtube Thumbnail Downloader
         </h1>
         <p className="text-gray-600">
-          Download high-quality thumbnails from YouTube videos.
+          Download high-quality thumbnails from YouTube videos for FREE
         </p>
       </header>
       <div className="text-center">
@@ -55,7 +55,7 @@ const Index = () => {
           className="btn-blue mt-2"
           onClick={() => getYouTubeThumbnail(videoURL)}
         >
-          Download Thumbnails
+          Download Thumbnail Images
         </button>
       </div>
       {thumbnailOptions.length > 0 && (
